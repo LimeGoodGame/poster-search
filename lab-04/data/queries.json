@@ -1,0 +1,362 @@
+[
+  {
+    "id": "train_01",
+    "split": "train",
+    "text": "джаз минимализм",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_02",
+    "split": "train",
+    "text": "саксофон лаконичный",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_03",
+    "split": "train",
+    "text": "театр минимализм",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_04",
+    "split": "train",
+    "text": "спектакль лаконичный",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_05",
+    "split": "train",
+    "text": "кино минимализм",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_06",
+    "split": "train",
+    "text": "кинопоказ лаконичный",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_07",
+    "split": "train",
+    "text": "выставка минимализм",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_08",
+    "split": "train",
+    "text": "галерея лаконичный",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_09",
+    "split": "train",
+    "text": "электроника минимализм",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_10",
+    "split": "train",
+    "text": "рейв лаконичный",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_11",
+    "split": "train",
+    "text": "фестиваль минимализм",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "train_12",
+    "split": "train",
+    "text": "опенэйр лаконичный",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_13",
+    "split": "validation",
+    "text": "джаз минимализм",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_14",
+    "split": "validation",
+    "text": "саксофон лаконичный",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_15",
+    "split": "validation",
+    "text": "театр минимализм",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_16",
+    "split": "validation",
+    "text": "спектакль лаконичный",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_17",
+    "split": "validation",
+    "text": "кино минимализм",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_18",
+    "split": "validation",
+    "text": "кинопоказ лаконичный",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_19",
+    "split": "validation",
+    "text": "выставка минимализм",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_20",
+    "split": "validation",
+    "text": "галерея лаконичный",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_21",
+    "split": "validation",
+    "text": "электроника минимализм",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_22",
+    "split": "validation",
+    "text": "рейв лаконичный",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_23",
+    "split": "validation",
+    "text": "фестиваль минимализм",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "validation_24",
+    "split": "validation",
+    "text": "опенэйр лаконичный",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_25",
+    "split": "test",
+    "text": "джаз минимализм",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_26",
+    "split": "test",
+    "text": "саксофон лаконичный",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_27",
+    "split": "test",
+    "text": "театр минимализм",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_28",
+    "split": "test",
+    "text": "спектакль лаконичный",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_29",
+    "split": "test",
+    "text": "кино минимализм",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_30",
+    "split": "test",
+    "text": "кинопоказ лаконичный",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_31",
+    "split": "test",
+    "text": "выставка минимализм",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_32",
+    "split": "test",
+    "text": "галерея лаконичный",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_33",
+    "split": "test",
+    "text": "электроника минимализм",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_34",
+    "split": "test",
+    "text": "рейв лаконичный",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_35",
+    "split": "test",
+    "text": "фестиваль минимализм",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  },
+  {
+    "id": "test_36",
+    "split": "test",
+    "text": "опенэйр лаконичный",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:prepare_data.py@1.1",
+    "synthetic": true
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "data_version": "1.1",
+  "synthetic": true,
+  "raw_count": 42,
+  "clean_count": 36,
+  "exclusions": {
+    "duplicate_image": 3,
+    "unknown_rights": 2,
+    "empty_description": 1
+  },
+  "genres": {
+    "джаз": 6,
+    "театр": 6,
+    "кино": 6,
+    "выставка": 6,
+    "электроника": 6,
+    "фестиваль": 6
+  },
+  "styles": {
+    "минимализм": 18,
+    "детализация": 18
+  },
+  "splits": {
+    "test": 12,
+    "train": 12,
+    "validation": 12
+  },
+  "queries": {
+    "train": 12,
+    "validation": 12,
+    "test": 12
+  },
+  "cross_split_checks_passed": 21,
+  "hashes": {
+    "prepare_data.py": "030aca4e9bb782bfdfda56557e036efa25ad692a0183e10f47b0103b42bfb248",
+    "data/raw.json": "1e275d287bc2d7c8f9e1ab84529d6ce269d26a350e73a31a2ea602d9c9ce2a2e",
+    "data/clean.json": "deb1d3eb5138e81ccfe9233086dac14e5eeb56ad77b2e2a03b28ad5bbd682884",
+    "data/queries.json": "2ba3cb81b7a83fb8c8ce46b93ac1378651798983b4607a55a4ce61cee574b6fb",
+    "data/lexicon.json": "15c6f6515a0a820ce4151326b2865d57f0867573bbee92eb0db64f77ffcdaaa8",
+    "data/posters/P001.svg": "ec35bfa07b2393f608e000c65997ac0d9b301ec2faf359aa5dbe8065a4b684e8",
+    "data/posters/P002.svg": "7b826f324916c2acd9f78f7d1bb48bd15e3d09389818044e6b53598401fd9ef1",
+    "data/posters/P003.svg": "9feb075f27bc34279dff7f5f38da52c1aab28d50da3acdc10f961ecc0a23dc52",
+    "data/posters/P004.svg": "0d2687807afdbd0c3aa69878569682150777e92fbc5424aefb366c988e52e3e1",
+    "data/posters/P005.svg": "4233f6c31189e4a049261803bf948af667169a0a83dd8489a4aaa56cc853e7cf",
+    "data/posters/P006.svg": "5dc8df858f6581b26bc4fc0e66042a55bdbc846fe7b22ec75d3669ba88a27424",
+    "data/posters/P007.svg": "7fcd0b65ea94ce000ce862044979bb28dd58fbff4bfb34e29e312b7ea99f36b3",
+    "data/posters/P008.svg": "d4e77f1703c81896ca1ecde9b86ae8b3044dd887c236734f5a29d7d4718d135e",
+    "data/posters/P009.svg": "b706f088b9522ebbb962eba878ecaea48656de9193ab9578e303724aa05c71b0",
+    "data/posters/P010.svg": "81373aff20c8fd0c214b0e8d5025dcd0e03532b6dddd006bf8cae112de7fbc76",
+    "data/posters/P011.svg": "a8c9f7957e4061b4e6828c3dbbc45d6f7dfab0586ed2d9fdfabd20019b0a4161",
+    "data/posters/P012.svg": "c64f6728f71bd0787bbc8f3f4256357e01b9f7fdd9efda7beb893bd1b5663558",
+    "data/posters/P013.svg": "55914a37d0ebb8b795ee595cff5131869b7d18e06c304ea4a16d542c93295ccf",
+    "data/posters/P014.svg": "d96065754c8edc53452d157de6a4adbf86238c758a6558488d9f74165ca25a12",
+    "data/posters/P015.svg": "83a230c2d9f1ab4cd0d8eed91979467b5dce24710a2f7a98e9adbc28b116d36c",
+    "data/posters/P016.svg": "506a1cd66f78b8751e402a860beea1d59016fe4330c3c0c2b166755340fbba8e",
+    "data/posters/P017.svg": "5109750db73cc94e0c63bcfbb06236f66bf8201078556eafd30099cc5c98c315",
+    "data/posters/P018.svg": "13538352964af274b23921c9f2f5a948c8dc446b55f876e2fb42eda9efe8eb33",
+    "data/posters/P019.svg": "18abcda1ad659f6fe27826a4c8393e6c71922cde9b4a34d154d2beacca48a1f4",
+    "data/posters/P020.svg": "bd87d204127987d04a2de07e6153fadf5cf982d97d02b30dcbc651ce26a0bb51",
+    "data/posters/P021.svg": "8d45c8813d74878a08d949125a869a7bb06912255df0f11e26fbf4719bf566c3",
+    "data/posters/P022.svg": "53ac4e06537f37c68a68f4230a54dd777641e84ea15aed4c4c8d54e208bf2879",
+    "data/posters/P023.svg": "3ab47f7060c8e5dc1dc070f2b2124afac763373d8a706f6936db287f6626f6c6",
+    "data/posters/P024.svg": "f3ab598c1de6822a109af79d616ef0cb962baf199c80739b56633c6b0746b512",
+    "data/posters/P025.svg": "633454a68da5449494ae9198b72071239fd8d6f28bbb1c6908aed3008082bec0",
+    "data/posters/P026.svg": "a8da47aa5ca2e063da93b231cf15977dcf11404a8b0997badf2e0a923fa22c48",
+    "data/posters/P027.svg": "082b48cf77993d2bafa17ad277cc8561dae1d4911ce9c43a687ae65bd78d6a8e",
+    "data/posters/P028.svg": "00892b2042c0e8af2d6c0fe939eacf8995d2227af4cec55a1955ec51cbc23ae0",
+    "data/posters/P029.svg": "89cd5030d8fa3a5d906d213974964a85ab6f36adabb3ee49093c8c488d5c8e5b",
+    "data/posters/P030.svg": "43954de2f9822481904c45d3f90dd8b4903dd6f44161c472ccbd1db2958972ef",
+    "data/posters/P031.svg": "88bcb54c27dd075bcd4080af8356019fc333427beaef07b1d5632698b174d982",
+    "data/posters/P032.svg": "25a675a6b97f47289fff60bb9050c888252b5b1de1ddd5819eb4fc697729ff7b",
+    "data/posters/P033.svg": "36aa143c58b9a891f890397fb8e1347b805bcb1e2ca2a93a50da3ddc46bde2a5",
+    "data/posters/P034.svg": "5a4df9094ce44257614fefb9feac4f11b0e0c8cbd180fe78c679cd5fedea2345",
+    "data/posters/P035.svg": "e6e8216a793bd4c463bef34b00de475ebbb74f9bac37ced9ee93c74de683aed5",
+    "data/posters/P036.svg": "0c16751f22ac81916b56ecbd6290ceacce3a9e8001c4981ce33800e5d5ae787e"
+  }
+}
