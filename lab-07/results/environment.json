@@ -1,0 +1,13 @@
+{
+  "python": "3.14.4",
+  "implementation": "CPython",
+  "dependencies": "standard library",
+  "data_version": "1.2",
+  "data_commit": "56cb62f37f22279749c5e355d75ca053aea376d4",
+  "settings_sha256": "0b7d7c42e86d3eb6c65909cdd1d3be8b1608a31b38e19ef4fd31033ca7ed7b35",
+  "idf_terms": 12,
+  "fit_split": "train",
+  "evaluation_split": "validation",
+  "top_k": 3,
+  "random_seed": null
+}

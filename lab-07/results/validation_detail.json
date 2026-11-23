@@ -1,0 +1,452 @@
+[
+  {
+    "query_id": "validation_01",
+    "kind": "literal",
+    "genre": "джаз",
+    "target_style": "минимализм",
+    "query": "В подборку «джаз» подойдёт постер в стиле «минимализм»",
+    "known_terms": [
+      "джаз",
+      "минимализм"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P003",
+        "score": 0.90175153,
+        "matched_terms": [
+          "джаз",
+          "минимализм"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P004",
+        "score": 0.63018426,
+        "matched_terms": [
+          "джаз"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P009",
+        "score": 0.27156727,
+        "matched_terms": [
+          "минимализм"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  },
+  {
+    "query_id": "validation_02",
+    "kind": "synonym",
+    "genre": "джаз",
+    "target_style": "детализация",
+    "query": "Покажите насыщенный плакат на тему саксофон",
+    "known_terms": [],
+    "unknown_terms": [
+      "на",
+      "насыщенный",
+      "плакат",
+      "покажите",
+      "саксофон",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_03",
+    "kind": "synonym",
+    "genre": "театр",
+    "target_style": "минимализм",
+    "query": "Покажите лаконичный плакат на тему спектакль",
+    "known_terms": [],
+    "unknown_terms": [
+      "лаконичный",
+      "на",
+      "плакат",
+      "покажите",
+      "спектакль",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_04",
+    "kind": "literal",
+    "genre": "театр",
+    "target_style": "детализация",
+    "query": "В подборку «театр» подойдёт постер в стиле «детализация»",
+    "known_terms": [
+      "детализация",
+      "театр"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P010",
+        "score": 0.90175153,
+        "matched_terms": [
+          "детализация",
+          "театр"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P009",
+        "score": 0.63018426,
+        "matched_terms": [
+          "театр"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P004",
+        "score": 0.27156727,
+        "matched_terms": [
+          "детализация"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  },
+  {
+    "query_id": "validation_05",
+    "kind": "literal",
+    "genre": "кино",
+    "target_style": "минимализм",
+    "query": "В подборку «кино» подойдёт постер в стиле «минимализм»",
+    "known_terms": [
+      "кино",
+      "минимализм"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P015",
+        "score": 0.90175153,
+        "matched_terms": [
+          "кино",
+          "минимализм"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P016",
+        "score": 0.63018426,
+        "matched_terms": [
+          "кино"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P003",
+        "score": 0.27156727,
+        "matched_terms": [
+          "минимализм"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  },
+  {
+    "query_id": "validation_06",
+    "kind": "synonym",
+    "genre": "кино",
+    "target_style": "детализация",
+    "query": "Покажите насыщенный плакат на тему кинопоказ",
+    "known_terms": [],
+    "unknown_terms": [
+      "кинопоказ",
+      "на",
+      "насыщенный",
+      "плакат",
+      "покажите",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_07",
+    "kind": "synonym",
+    "genre": "выставка",
+    "target_style": "минимализм",
+    "query": "Покажите лаконичный плакат на тему галерея",
+    "known_terms": [],
+    "unknown_terms": [
+      "галерея",
+      "лаконичный",
+      "на",
+      "плакат",
+      "покажите",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_08",
+    "kind": "literal",
+    "genre": "выставка",
+    "target_style": "детализация",
+    "query": "В подборку «выставка» подойдёт постер в стиле «детализация»",
+    "known_terms": [
+      "выставка",
+      "детализация"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P022",
+        "score": 0.90175153,
+        "matched_terms": [
+          "выставка",
+          "детализация"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P021",
+        "score": 0.63018426,
+        "matched_terms": [
+          "выставка"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P004",
+        "score": 0.27156727,
+        "matched_terms": [
+          "детализация"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  },
+  {
+    "query_id": "validation_09",
+    "kind": "literal",
+    "genre": "электроника",
+    "target_style": "минимализм",
+    "query": "В подборку «электроника» подойдёт постер в стиле «минимализм»",
+    "known_terms": [
+      "минимализм",
+      "электроника"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P027",
+        "score": 0.90175153,
+        "matched_terms": [
+          "минимализм",
+          "электроника"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P028",
+        "score": 0.63018426,
+        "matched_terms": [
+          "электроника"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P003",
+        "score": 0.27156727,
+        "matched_terms": [
+          "минимализм"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  },
+  {
+    "query_id": "validation_10",
+    "kind": "synonym",
+    "genre": "электроника",
+    "target_style": "детализация",
+    "query": "Покажите насыщенный плакат на тему рейв",
+    "known_terms": [],
+    "unknown_terms": [
+      "на",
+      "насыщенный",
+      "плакат",
+      "покажите",
+      "рейв",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_11",
+    "kind": "synonym",
+    "genre": "фестиваль",
+    "target_style": "минимализм",
+    "query": "Покажите лаконичный плакат на тему опенэйр",
+    "known_terms": [],
+    "unknown_terms": [
+      "лаконичный",
+      "на",
+      "опенэйр",
+      "плакат",
+      "покажите",
+      "тему"
+    ],
+    "empty_reason": "no_known_terms",
+    "results": [],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 0.0,
+    "recall_at_3": 0.0,
+    "outcome": "error"
+  },
+  {
+    "query_id": "validation_12",
+    "kind": "literal",
+    "genre": "фестиваль",
+    "target_style": "детализация",
+    "query": "В подборку «фестиваль» подойдёт постер в стиле «детализация»",
+    "known_terms": [
+      "детализация",
+      "фестиваль"
+    ],
+    "unknown_terms": [
+      "в",
+      "подборку",
+      "подойдёт",
+      "постер",
+      "стиле"
+    ],
+    "empty_reason": null,
+    "results": [
+      {
+        "rank": 1,
+        "poster_id": "P034",
+        "score": 0.90175153,
+        "matched_terms": [
+          "детализация",
+          "фестиваль"
+        ],
+        "grade": 2
+      },
+      {
+        "rank": 2,
+        "poster_id": "P033",
+        "score": 0.63018426,
+        "matched_terms": [
+          "фестиваль"
+        ],
+        "grade": 1
+      },
+      {
+        "rank": 3,
+        "poster_id": "P004",
+        "score": 0.27156727,
+        "matched_terms": [
+          "детализация"
+        ],
+        "grade": 0
+      }
+    ],
+    "relevant_in_catalog": 2,
+    "ndcg_at_3": 1.0,
+    "recall_at_3": 1.0,
+    "outcome": "success"
+  }
+]

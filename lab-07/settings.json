@@ -1,0 +1,10 @@
+{
+  "data_version": "1.2",
+  "data_commit": "56cb62f37f22279749c5e355d75ca053aea376d4",
+  "manifest_sha256": "2230dfffad49166ce1199b93d2cab59a73e7dc7ef1f92ee6760f23f993be0ded",
+  "fit_split": "train",
+  "evaluation_split": "validation",
+  "top_k": 3,
+  "min_relevant_grade": 1,
+  "ndcg_gain": "2^grade - 1"
+}
