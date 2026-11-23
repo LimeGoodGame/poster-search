@@ -1,0 +1,65 @@
+{
+  "data_version": "1.2",
+  "guideline_version": "1.0",
+  "synthetic": true,
+  "source_version": "1.1",
+  "source_commit": "00e7ca42ca5e38c91af5fbad18c1b262ef11586c",
+  "image_root": "repository",
+  "raw_cards": 42,
+  "clean_cards": 36,
+  "queries": 36,
+  "qrels": 432,
+  "qrel_distribution": {
+    "0": 360,
+    "1": 36,
+    "2": 36
+  },
+  "cards_by_split": {
+    "train": 12,
+    "validation": 12,
+    "test": 12
+  },
+  "queries_by_split": {
+    "train": 12,
+    "validation": 12,
+    "test": 12
+  },
+  "annotation": {
+    "method": "assistant_visual_review_vs_svg_geometry",
+    "independent_human_annotators": 0,
+    "split": "train",
+    "pilot_cards": 12,
+    "visual_distribution": {
+      "детализация": 6,
+      "минимализм": 6
+    },
+    "svg_distribution": {
+      "детализация": 6,
+      "минимализм": 6
+    },
+    "final_distribution": {
+      "детализация": 6,
+      "минимализм": 6
+    },
+    "labels_agree": 12,
+    "counts_and_labels_agree": 12,
+    "agreement_fraction": 1.0,
+    "needs_review": 0
+  },
+  "sha256": {
+    "annotation_guideline.md": "6fc9c41746f85e994a53caa1df78d7a607b26bdda886c60a301cde717a973b9e",
+    "pilot_sheet.png": "64bdf0f4674ce50595acaefa72e34461f88c4f46b21e7f83d336136440665b49",
+    "pilot_visual.csv": "95a865f5e6159752630f7f51d34ebbb1778adbefeed5ccc5e2c5fb456009a7b4",
+    "prepare.py": "c7e97327cfd8e6984260ac074ea3a49d2ef526b5a260bac55563edc71ad0e6e3",
+    "data/clean.json": "b448a7e61f5ff798f75a0eae9769db85efc26cb620cdaa1524dbee52a8daeae2",
+    "data/queries.json": "433040c0e22ac383e53c83677d06bfd3d3dfcf3cdeb956dfc6a0397bd4762ca2",
+    "data/qrels.csv": "774ac696132fa187923a3a5a7e7960d83b6d93653d82f20c45ba76d7770f1f79",
+    "data/idf.json": "e716fc7049a7afe5a09b4ebe51d64777a468a9b857393dc0ae3dfbeda468b1b8",
+    "data/tfidf.json": "a7bbe4c35e8133db38ae13c5ef85e47493ffa7ce290dedd01c1a48052d41ca1f",
+    "results/exclusions.csv": "6cbff7535b4f9c879715012bf9ae569e69d9db8e27315d6eb47be21ae77ccec8",
+    "results/pilot_svg.csv": "b3d26d7e69fc80d138a968890e31e3ad91caaad2d184f1036012bc98a5ef3fcc",
+    "results/pilot_final.csv": "0fe7b549ab368340b8767ca4379aaf5172d9fe93d102be7ad5bbf048ad02ee0a",
+    "results/disagreements.csv": "7eaae1dd1b0f223df1d80d2302913f7bd88eb465bebe9fdd4764847f12933ce8",
+    "results/annotation_stats.json": "5e66f93b70c069e5a2e665398997bc58ab7b312efabfb105aede06411c47f266"
+  }
+}

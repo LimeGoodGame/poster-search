@@ -1,0 +1,13 @@
+blind_id,poster_id,visual_label,svg_label,final_label,decision
+B01,P020,детализация,детализация,детализация,count_and_label_agree
+B02,P026,детализация,детализация,детализация,count_and_label_agree
+B03,P014,детализация,детализация,детализация,count_and_label_agree
+B04,P031,минимализм,минимализм,минимализм,count_and_label_agree
+B05,P007,минимализм,минимализм,минимализм,count_and_label_agree
+B06,P025,минимализм,минимализм,минимализм,count_and_label_agree
+B07,P008,детализация,детализация,детализация,count_and_label_agree
+B08,P019,минимализм,минимализм,минимализм,count_and_label_agree
+B09,P032,детализация,детализация,детализация,count_and_label_agree
+B10,P001,минимализм,минимализм,минимализм,count_and_label_agree
+B11,P002,детализация,детализация,детализация,count_and_label_agree
+B12,P013,минимализм,минимализм,минимализм,count_and_label_agree

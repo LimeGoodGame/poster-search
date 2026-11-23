@@ -1,0 +1,22 @@
+{
+  "method": "assistant_visual_review_vs_svg_geometry",
+  "independent_human_annotators": 0,
+  "split": "train",
+  "pilot_cards": 12,
+  "visual_distribution": {
+    "детализация": 6,
+    "минимализм": 6
+  },
+  "svg_distribution": {
+    "детализация": 6,
+    "минимализм": 6
+  },
+  "final_distribution": {
+    "детализация": 6,
+    "минимализм": 6
+  },
+  "labels_agree": 12,
+  "counts_and_labels_agree": 12,
+  "agreement_fraction": 1.0,
+  "needs_review": 0
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "train_01",
+    "split": "train",
+    "text": "Ищу афишу про «джаз» в стиле «минимализм»",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_02",
+    "split": "train",
+    "text": "Нужен насыщенный макет для события саксофон",
+    "genre": "джаз",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_03",
+    "split": "train",
+    "text": "Нужен лаконичный макет для события спектакль",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_04",
+    "split": "train",
+    "text": "Ищу афишу про «театр» в стиле «детализация»",
+    "genre": "театр",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_05",
+    "split": "train",
+    "text": "Ищу афишу про «кино» в стиле «минимализм»",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_06",
+    "split": "train",
+    "text": "Нужен насыщенный макет для события кинопоказ",
+    "genre": "кино",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_07",
+    "split": "train",
+    "text": "Нужен лаконичный макет для события галерея",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_08",
+    "split": "train",
+    "text": "Ищу афишу про «выставка» в стиле «детализация»",
+    "genre": "выставка",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_09",
+    "split": "train",
+    "text": "Ищу афишу про «электроника» в стиле «минимализм»",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_10",
+    "split": "train",
+    "text": "Нужен насыщенный макет для события рейв",
+    "genre": "электроника",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_11",
+    "split": "train",
+    "text": "Нужен лаконичный макет для события опенэйр",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "train_12",
+    "split": "train",
+    "text": "Ищу афишу про «фестиваль» в стиле «детализация»",
+    "genre": "фестиваль",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_01",
+    "split": "validation",
+    "text": "В подборку «джаз» подойдёт постер в стиле «минимализм»",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_02",
+    "split": "validation",
+    "text": "Покажите насыщенный плакат на тему саксофон",
+    "genre": "джаз",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_03",
+    "split": "validation",
+    "text": "Покажите лаконичный плакат на тему спектакль",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_04",
+    "split": "validation",
+    "text": "В подборку «театр» подойдёт постер в стиле «детализация»",
+    "genre": "театр",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_05",
+    "split": "validation",
+    "text": "В подборку «кино» подойдёт постер в стиле «минимализм»",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_06",
+    "split": "validation",
+    "text": "Покажите насыщенный плакат на тему кинопоказ",
+    "genre": "кино",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_07",
+    "split": "validation",
+    "text": "Покажите лаконичный плакат на тему галерея",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_08",
+    "split": "validation",
+    "text": "В подборку «выставка» подойдёт постер в стиле «детализация»",
+    "genre": "выставка",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_09",
+    "split": "validation",
+    "text": "В подборку «электроника» подойдёт постер в стиле «минимализм»",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_10",
+    "split": "validation",
+    "text": "Покажите насыщенный плакат на тему рейв",
+    "genre": "электроника",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_11",
+    "split": "validation",
+    "text": "Покажите лаконичный плакат на тему опенэйр",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "validation_12",
+    "split": "validation",
+    "text": "В подборку «фестиваль» подойдёт постер в стиле «детализация»",
+    "genre": "фестиваль",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_01",
+    "split": "test",
+    "text": "Выберите плакат из раздела «джаз» с оформлением в стиле «минимализм»",
+    "genre": "джаз",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_02",
+    "split": "test",
+    "text": "Подберите насыщенный вариант афиши для рубрики саксофон",
+    "genre": "джаз",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_03",
+    "split": "test",
+    "text": "Подберите лаконичный вариант афиши для рубрики спектакль",
+    "genre": "театр",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_04",
+    "split": "test",
+    "text": "Выберите плакат из раздела «театр» с оформлением в стиле «детализация»",
+    "genre": "театр",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_05",
+    "split": "test",
+    "text": "Выберите плакат из раздела «кино» с оформлением в стиле «минимализм»",
+    "genre": "кино",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_06",
+    "split": "test",
+    "text": "Подберите насыщенный вариант афиши для рубрики кинопоказ",
+    "genre": "кино",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_07",
+    "split": "test",
+    "text": "Подберите лаконичный вариант афиши для рубрики галерея",
+    "genre": "выставка",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_08",
+    "split": "test",
+    "text": "Выберите плакат из раздела «выставка» с оформлением в стиле «детализация»",
+    "genre": "выставка",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_09",
+    "split": "test",
+    "text": "Выберите плакат из раздела «электроника» с оформлением в стиле «минимализм»",
+    "genre": "электроника",
+    "preferred_style": "минимализм",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_10",
+    "split": "test",
+    "text": "Подберите насыщенный вариант афиши для рубрики рейв",
+    "genre": "электроника",
+    "preferred_style": "детализация",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_11",
+    "split": "test",
+    "text": "Подберите лаконичный вариант афиши для рубрики опенэйр",
+    "genre": "фестиваль",
+    "preferred_style": "минимализм",
+    "kind": "synonym",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  },
+  {
+    "id": "test_12",
+    "split": "test",
+    "text": "Выберите плакат из раздела «фестиваль» с оформлением в стиле «детализация»",
+    "genre": "фестиваль",
+    "preferred_style": "детализация",
+    "kind": "literal",
+    "source": "synthetic:lab-06/prepare.py@1.2",
+    "synthetic": true
+  }
+]
